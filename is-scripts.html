@@ -138,7 +138,7 @@ img {
 
 	function createEmail() {
 		if(document.getElementById('discovery').checked){
-			document.location.href='mailto:jarviscarrascosa@gmail.com?subject=Discovery&body=' + document.getElementById('weburl').value;
+			document.location.href='mailto:jarviscarrascosa@gmail.com?subject=Report&body=' + document.getElementById('weburl').value;
 		}else if(document.getElementById('beacon_accuracy').checked){
 			var test_quantity = document.getElementById('accuracy_times').value;
 			document.location.href='mailto:jarviscarrascosa@gmail.com?subject=Beacon&body='.concat(document.getElementById('weburl').value,"$",test_quantity,'$$');
